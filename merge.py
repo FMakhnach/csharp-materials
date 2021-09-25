@@ -7,12 +7,11 @@ files = [
     "Generics",
     "Interfaces",
     "LINQ",
-    #"Reflection",
-    #"Attributes",
     "Enums",
 ]
+files = ['Materials/' + file for file in files]
 
-result_file_name = 'FullConsultation.ipynb'
+result_file_name = 'Full.ipynb'
 
 top = """{
  "cells": ["""
@@ -21,7 +20,7 @@ me = """  {
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "# Консультация 2021\\n",
+    "# Всё что вы не хотели знать о C#\\n",
     "## Подготовил Махнач Фёдор, tg: @fmakhnach"
    ]
   },
