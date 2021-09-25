@@ -1,11 +1,12 @@
 import os
 
 files = [
+    "Fields",
     "Structs",
     "DelegatesEventsLambdas",
-    "Interfaces",
     "Generics",
-    #"LINQ",
+    "Interfaces",
+    "LINQ",
     #"Reflection",
     #"Attributes",
     "Enums",
